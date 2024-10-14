@@ -1,0 +1,292 @@
+body, html{
+    margin: 0;
+    background-image: url('../imgs/space-stars.jpg');
+    overflow: hidden;
+    scroll-behavior: smooth;
+    font-family: Mako;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Main Container 1 */
+
+#main-con1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF;
+}
+
+.m-c1-img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #333;
+    border-radius: 50%;
+}
+
+.m-c1-head-text{
+    font-family: Aref Ruqaa;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.m-c1-main-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+    color: #333;
+}
+
+.m-c1-main-text1{
+    font-size: 24px;
+    width: 98%;
+    margin-bottom: 10px;
+}
+
+.m-c1-main-text2{
+    font-size: 20px;
+    width: 92%;
+    margin-bottom: 10px;
+}
+
+.m-c1-main-text3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.m-c1-main-text4{
+    font-size: 18px;
+}
+
+/* Main Container 2 */
+
+#main-con2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF;
+    transform: translateX(100%);
+    margin-top: 100vh;
+}
+
+/* Main Container 3 */
+
+#main-con3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF;
+    transform: translateX(200%);
+    margin-top: 200vh;
+}
+
+/* Main Container 4 */
+
+#main-con4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF;
+    transform: translateX(300%);
+    margin-top: 300vh;
+}
+
+
+
+
+
+/* Tabs */
+
+.tabs-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: fit-content;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+.tabs-con a{
+    font-size: 18px;
+    background-color: #333;
+    color: #FFF;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.tabs-con a:hover{
+    background-color: white;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+    
+.m-c1-main-text{
+    width: 100%;
+}
+
+.m-c1-head-text{
+    font-size: 30px;
+}
+
+.m-c1-img{
+    width: 200px;
+    height: 200px;
+}
+
+}
+
+@media (max-width: 600px) {
+    
+.m-c1-main-text1{
+    font-size: 20px;
+}
+
+.m-c1-main-text2{
+    font-size: 18px;
+}
+
+.m-c1-main-text3{
+    font-size: 16px;
+    width: 90%;
+}
+
+.m-c1-head-text{
+    font-size: 30px;
+}
+
+.m-c1-img{
+    width: 200px;
+    height: 200px;
+}
+
+.tabs-con{
+    gap: 10px;
+}
+
+.tabs-con a{
+    font-size: 14px;
+    padding: 7px 14px;
+}
+
+}
+
+@media (max-width: 450px) {
+    
+.m-c1-main-text1{
+    font-size: 18px;
+    width: 90%; 
+}
+
+.m-c1-main-text2{
+    font-size: 17px;
+    width: 90%;
+}
+
+.m-c1-main-text3{
+    font-size: 14px;
+    width: 90%;
+}
+
+.m-c1-head-text{
+    font-size: 26px;
+    width: 90%;
+}
+
+.m-c1-img{
+    width: 150px;
+    height: 150px;
+}
+
+.tabs-con{
+    gap: 6px;
+}
+
+.tabs-con a{
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+}
+
+@media (max-width: 300px) {
+    
+.m-c1-main-text1{
+    font-size: 16px;
+    width: 90%; 
+}
+
+.m-c1-main-text2{
+    font-size: 15px;
+    width: 90%;
+}
+
+.m-c1-main-text3{
+    font-size: 14px;
+    width: 90%;
+}
+
+.m-c1-main-text4{
+    font-size: 14px;
+    width: 90%;
+}
+
+.m-c1-head-text{
+    font-size: 20px;
+    width: 90%;
+}
+
+.m-c1-img{
+    width: 120px;
+    height: 120px;
+}
+
+.tabs-con{
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.tabs-con a{
+    font-size: 10px;
+    padding: 3px 6px;
+}
+
+}
